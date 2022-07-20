@@ -12,6 +12,7 @@ section{
     width: 1200px;
     flex-direction: row;
     margin-left: 70px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -57,7 +58,6 @@ section{
     width: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     margin-left: 45px;
 }
 
