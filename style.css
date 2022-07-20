@@ -75,11 +75,14 @@ section{
     padding: 5px 20px;
     border-radius: 5px;
 }
+#fothead {
+    text-align: center;
+    color: #efef;
+}
 
-footer {
-    grid-area: footer;
-    padding: 2px;
-    font-family: 'Times New Roman', Times, serif
+.footer{
+    background-color: black;
+    display: block;
 }
 /*mobile view*/
 
