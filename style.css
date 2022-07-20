@@ -9,13 +9,14 @@ body {
     border-radius: 10px;
     width: 1200px;
     flex-direction: row;
-    margin-left: 80px;
+    margin-left: 70px;
+    text-align: center
 }
 
 .anchor-button {
     color: white;
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, rgb(0, 190, 204), rgb(0, 210, 247));
     padding: 5px 20px;
     border-radius: 5px;
 
@@ -73,7 +74,8 @@ body {
     border-radius: 5px;
 }
 
-.fotter-color {
+footer {
+    grid-area: footer;
     padding: 2px;
     font-family: 'Times New Roman', Times, serif
 }
