@@ -81,3 +81,28 @@ footer {
     padding: 2px;
     font-family: 'Times New Roman', Times, serif
 }
+/*mobile view*/
+
+@media screen and (max-width:576px) {
+    
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+/*tab view*/
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+/*laptop view*/
+@media screen and (min-width:993px) and (max-width:1200px) {
+    
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
