@@ -127,6 +127,7 @@ section{
     }
     .footer{
         align-items: center;
+        width: auto;
     }
 }
 /*tab view*/
